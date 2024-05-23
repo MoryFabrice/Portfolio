@@ -8,4 +8,10 @@ $template5 = "views/aPropos";
 $template6 = "views/contact";
 $template7 = "views/modal";
 $template8 = "views/footer";
+
+if (!isset($retour)) {
+
+    $retour = FALSE;
+}
+
 include("./views/index.phtml");
