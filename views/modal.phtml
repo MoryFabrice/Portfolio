@@ -1,6 +1,6 @@
     <!-- Portfolio Modals-->
     <!-- Portfolio Modal 1-->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1Label" aria-hidden="true">
         <div class="modal-dialog modal-xl">
             <div class="modal-content">
                 <div class="modal-header border-0">
@@ -22,15 +22,52 @@
                                     </div>
                                     <div class="divider-custom-line"></div>
                                 </div>
-                                <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/deezer.png" alt="..." />
+                                <!-- Portfolio Modal - Carousel -->
+                                <div id="carouselDeezer" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselDeezer" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselDeezer" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselDeezer" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Reproduction - Page accueil Deezer</h5>
+                                            </div>
+                                            <img class="img-fluid w-100 object-fit-cover" src="assets/img/deezer/deezer.png" alt="First slide">
+
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="img-fluid w-100 object-fit-cover" src="assets/img/deezer/deezer_smartphone.png" alt="Second slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Reproduction - Page accueil Deezer - Mode tablette</h5>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="img-fluid w-100 object-fit-cover" src="assets/img/deezer/deezer2.png" alt="Third slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Reproduction - Page accueil Deezer - Mode smartphone</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselDeezer" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselDeezer" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-4">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Mollitia neque assumenda ipsam nihil, molestias magnam,
-                                    recusandae quos quis inventore quisquam velit asperiores,
-                                    vitae? Reprehenderit soluta, eos quod consequuntur itaque.
-                                    Nam.
+                                    Dans le cadre de la formation nous avons effectué un projet nous permettant de nous familiariser avec le langage HTML
+                                    et CSS, mais également intégré le design responsive. Ce projet était de reproduire la page d’accueil du site Deezer.
+                                    Pour réaliser cela, nous avons utilisé des media queries dans notre fichier CSS afin de pouvoir définir
+                                    des styles spécifiques en fonction de la taille de l’écran de l’utilisateur. Ce qui a permis de rendre
+                                    notre site web adaptable et optimisé (responsive) pour différents appareils (pc portable, smartphone, etc...) et
+                                    différentes tailles d’écran, pouvant ainsi permettre une expérience utilisateur agréable pour tous.
                                 </p>
                                 <button class="btn btn-primary" data-bs-dismiss="modal">
                                     <i class="fas fa-xmark fa-fw"></i>
@@ -43,6 +80,7 @@
             </div>
         </div>
     </div>
+
     <!-- Portfolio Modal 2-->
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
         <div class="modal-dialog modal-xl">
@@ -66,15 +104,58 @@
                                     </div>
                                     <div class="divider-custom-line"></div>
                                 </div>
-                                <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/e_commerce_SMILE.png" alt="..." />
+                                <!-- Portfolio Modal - Carousel -->
+                                <div id="carouselSmile" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselSmile" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselSmile" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselSmile" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselSmile" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>SMILE - Ecommerce - Page d'accueil</h5>
+                                            </div>
+                                            <img class="img-fluid w-100 object-fit-cover" src="assets/img/SMILE/SMILE_accueil.png" alt="First slide">
+
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="img-fluid w-100 object-fit-cover" src="assets/img/SMILE/SMILE_login.png" alt="Second slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>SMILE - Ecommerce - Page login</h5>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="img-fluid w-100 object-fit-cover" src="assets/img/SMILE/SMILE_produit.png" alt="Third slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>SMILE - Ecommerce - Page produit</h5>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="img-fluid w-100 object-fit-cover" src="assets/img/SMILE/SMILE_panier.png" alt="Fourth slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>SMILE - Ecommerce - Page panier</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselSmile" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselSmile" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-4">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Mollitia neque assumenda ipsam nihil, molestias magnam,
-                                    recusandae quos quis inventore quisquam velit asperiores,
-                                    vitae? Reprehenderit soluta, eos quod consequuntur itaque.
-                                    Nam.
+                                    Lors de la formation, nous avons travaillé sur un projet commun : le projet SMILE,
+                                    un site de e-commerce. Nous y avons incorporé la programmation orientée objet,
+                                    avec des classes métiers et des classes DAO. Nous avons également structuré l'ensemble
+                                    du projet en suivant le modèle MVC (Modèle, Vue, Contrôleur), ce qui nous a permis
+                                    d'organiser notre travail de manière efficace et de faciliter la maintenance et l'évolution du site.
+
                                 </p>
                                 <button class="btn btn-primary" data-bs-dismiss="modal">
                                     <i class="fas fa-xmark fa-fw"></i>
@@ -110,15 +191,49 @@
                                     </div>
                                     <div class="divider-custom-line"></div>
                                 </div>
-                                <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/admin_SMILE.png" alt="..." />
+                                <!-- Portfolio Modal - Carousel -->
+                                <div id="carouselSmileAdmin" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselSmileAdmin" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselSmileAdmin" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselSmileAdmin" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Smile Admin - Page Accueil</h5>
+                                            </div>
+                                            <img class="img-fluid w-100 object-fit-cover" src="assets/img/SmileAdmin/SMILE_admin_acceuil.png" alt="First slide">
+
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="img-fluid w-100 object-fit-cover" src="assets/img/SmileAdmin/SMILE_admin_listeProduit.png" alt="Second slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Smile Admin - Page liste produit</h5>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="img-fluid w-100 object-fit-cover" src="assets/img/SmileAdmin/SMILE_admin_ajoutProduit.png" alt="Third slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Smile Admin - Page ajout produit</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselSmileAdmin" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselSmileAdmin" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-4">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Mollitia neque assumenda ipsam nihil, molestias magnam,
-                                    recusandae quos quis inventore quisquam velit asperiores,
-                                    vitae? Reprehenderit soluta, eos quod consequuntur itaque.
-                                    Nam.
+                                    Dans le cadre de la formation nous avons effectué un projet e-commerce (SMILE).
+                                    Dans le cadre de ce projet, nous avons développé une interface admin permettant
+                                    la gestion de contenu. En effet dans cette interface admin nous pouvons visualiser
+                                    tous nos produits, en ajouter, les modifier ou alors les supprimer.
                                 </p>
                                 <button class="btn btn-primary" data-bs-dismiss="modal">
                                     <i class="fas fa-xmark fa-fw"></i>
@@ -154,15 +269,63 @@
                                     </div>
                                     <div class="divider-custom-line"></div>
                                 </div>
-                                <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/generateurClasse.png" alt="..." />
+                                <!-- Portfolio Modal - Carousel -->
+                                <div id="carouselGenerateurClasse" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselGenerateurClasse" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselGenerateurClasse" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselGenerateurClasse" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselGenerateurClasse" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                        <button type="button" data-bs-target="#carouselGenerateurClasse" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Smile Admin - Page Accueil</h5>
+                                            </div>
+                                            <img class="img-fluid w-100 object-fit-cover" src="assets/img/generateurClasse/generateurClasse_accueil.png" alt="First slide">
+
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="img-fluid w-100 object-fit-cover" src="assets/img/generateurClasse/generateurClasse_listeBDD.png" alt="Second slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Smile Admin - Page Liste BDD</h5>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="img-fluid w-100 object-fit-cover" src="assets/img/generateurClasse/generateurClasse_listeTable.png" alt="Third slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Smile Admin - Page Liste Table</h5>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="img-fluid w-100 object-fit-cover" src="assets/img/generateurClasse/generateurClasse_fichierMetier.png" alt="Fourth slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Smile Admin - Page Fichier Metier</h5>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="img-fluid w-100 object-fit-cover" src="assets/img/generateurClasse/generateurClasse_fichierDAO.png" alt="Fifth slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>Smile Admin - Page Fichier DAO</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselGenerateurClasse" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselGenerateurClasse" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-4">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Mollitia neque assumenda ipsam nihil, molestias magnam,
-                                    recusandae quos quis inventore quisquam velit asperiores,
-                                    vitae? Reprehenderit soluta, eos quod consequuntur itaque.
-                                    Nam.
+                                    Lors de ma formation par plusieurs fois j'ai du créer des classes metiers et des classes DAO manuellement,
+                                    or lors d'un cours j'ai vu un des intervenants utilisés un generateur de classe afin de gagner du temps.
+                                    C'est a ce moment que je me suis dit qu'il fallait que je fasse la meme chose. Et voila le generateur de classe
+                                    est né.
                                 </p>
                                 <button class="btn btn-primary" data-bs-dismiss="modal">
                                     <i class="fas fa-xmark fa-fw"></i>
@@ -198,15 +361,44 @@
                                     </div>
                                     <div class="divider-custom-line"></div>
                                 </div>
-                                <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/APCD_Devis.png" alt="..." />
+                                <!-- Portfolio Modal - Carousel -->
+                                <div id="carouselAPCD" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselAPCD" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselAPCD" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>APCD - Gestion de devis - Page Accueil</h5>
+                                            </div>
+                                            <img class="img-fluid w-100 object-fit-cover" src="assets/img/APCD/APCD_Devis_accueil.png" alt="First slide">
+
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="img-fluid w-100 object-fit-cover" src="assets/img/APCD/APCD_Devis_ajoutClient.png" alt="Second slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>APCD - Gestion de devis - Page Ajout Client</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselAPCD" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselAPCD" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-4">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Mollitia neque assumenda ipsam nihil, molestias magnam,
-                                    recusandae quos quis inventore quisquam velit asperiores,
-                                    vitae? Reprehenderit soluta, eos quod consequuntur itaque.
-                                    Nam.
+                                    Mon projet consiste en une application web permettant aux utilisateurs authentifiés de
+                                    soumettre des demandes de devis. L'objectif de cette application est de permettre aux clients
+                                    de recevoir des devis, de les accepter et d e les stocker dans leur compte. Du côté des
+                                    artisans, ils recevront des demandes de devis par e mail et pourront créer des devis en
+                                    utilisant les informations des clients concernés, en ajoutant les éléments nécessaires à
+                                    l'élaboration du devis.
                                 </p>
                                 <button class="btn btn-primary" data-bs-dismiss="modal">
                                     <i class="fas fa-xmark fa-fw"></i>
@@ -242,15 +434,66 @@
                                     </div>
                                     <div class="divider-custom-line"></div>
                                 </div>
-                                <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/IGS_Stage.png" alt="..." />
+                                <!-- Portfolio Modal - Carousel -->
+                                <div id="carouselIGS" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselIGS" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselIGS" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselIGS" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselIGS" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                        <button type="button" data-bs-target="#carouselIGS" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>IGS - Gestion de devis - Page Accueil</h5>
+                                            </div>
+                                            <img class="img-fluid w-100 object-fit-cover" src="assets/img/IGS/IGS_Stage_accueil.png" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>IGS - Gestion de devis - Page Stock</h5>
+                                            </div>
+                                            <img class="img-fluid w-100 object-fit-cover" src="assets/img/IGS/IGS_Stage_StockSite.png" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="img-fluid w-100 object-fit-cover" src="assets/img/IGS/IGS_Stage_AjoutStock.png" alt="Third slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>IGS - Gestion de devis - Page Ajout Stock</h5>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="img-fluid w-100 object-fit-cover" src="assets/img/IGS/IGS_Stage_ModifStock.png" alt="Fourth slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>IGS - Gestion de devis - Page Modification Stock</h5>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="img-fluid w-100 object-fit-cover" src="assets/img/IGS/IGS_Stage_SupprStock.png" alt="Fifth slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h5>IGS - Gestion de devis - Page Suppression Stock</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselIGS" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselIGS" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-4">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Mollitia neque assumenda ipsam nihil, molestias magnam,
-                                    recusandae quos quis inventore quisquam velit asperiores,
-                                    vitae? Reprehenderit soluta, eos quod consequuntur itaque.
-                                    Nam.
+                                    Mon projet de stage consiste à améliorer la solution existante chez GMA International, l'IGS
+                                    (Infos Gestion Solution). À l'origine, cette solution était codée en HTML, CSS, JS et PHP, avec
+                                    tout le code mélangé sur une même page. Notre première étape a été de mettre en place
+                                    une architecture MVC (Modèle Vue Contrôleur) en PHP. Pour faciliter la gestion de cette
+                                    architecture, le chef de projet a décidé d'adopter le framework Symfony, qui intègre
+                                    nativement l'architecture MVC. Nous avons repris la base de données existante en l'adaptant
+                                    aux normes de Symfony, puis nous avons utilisé tous les outils offerts par le framework, ce
+                                    qui nous a permis de progresser plus rapidement dans un environnement bien structuré.
                                 </p>
                                 <button class="btn btn-primary" data-bs-dismiss="modal">
                                     <i class="fas fa-xmark fa-fw"></i>

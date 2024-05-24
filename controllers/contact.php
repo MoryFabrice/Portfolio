@@ -62,6 +62,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $retour = "Veuillez remplir tous les champs.";
         }
     }
-    
-    // include "./index.php";
+
+    header("Location: ../index.php");
 }
