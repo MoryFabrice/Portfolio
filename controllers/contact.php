@@ -50,7 +50,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 // Contenu de l'email
                 $mail->isHTML(true);
                 $mail->Subject = 'Nouveau message de votre formulaire de contact';
-                $mail->Body = "Nom: $nom\nEmail: $email\nTéléphone: $telephone\n\nMessage:\n$message";
+                $mail->Body = "<strong><u>Nom:</u></strong> $nom<br>
+                                <strong><u>Email:</u></strong> $email<br>
+                                <strong><u>Téléphone:</u></strong> $telephone<br><br>
+                                <strong><u>Message:</u></strong><br>$message";
 
                 $mail->send();
 
